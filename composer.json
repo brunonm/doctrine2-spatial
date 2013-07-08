@@ -1,12 +1,12 @@
 {
-    "name": "creof/doctrine2-spatial",
+    "name": "ue/doctrine2-spatial",
     "type": "library",
     "description": "Doctrine2 multi-platform support for spatial types and functions",
     "keywords": ["orm", "dbal", "database", "postgresql", "mysql", "opengis", "postgis", "gis", "spatial", "geometry", "geography"],
     "authors": [
         {
-            "name": "Derek Lambert",
-            "email": "dlambert@dereklambert.com"
+            "name": "Bruno Neves",
+            "email": "brunonm@gmail.com"
         }
     ],
     "license": "MIT",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "CrEOF\\Spatial": "lib/"
+            "Ue\\Spatial": "lib/"
         }
     }
 }
