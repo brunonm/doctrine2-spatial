@@ -61,7 +61,7 @@ class GeometryType extends Type {
      * @see \Doctrine\DBAL\Types\Type::convertToPHPValueSQL()
      */
     public function convertToPHPValueSQL($sqlExpr, $platform) {
-        return 'ST_AsText(\''.$sqlExpr.'\') ';
+        return 'ST_AsText('.$sqlExpr.') ';
     }
 
     /**
