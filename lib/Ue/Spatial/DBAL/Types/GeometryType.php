@@ -12,7 +12,7 @@ use Doctrine\DBAL\Types\Type,
  */
 class GeometryType extends Type {
     const GEOMETRY = 'geometry';
-    const SRID = 4674;
+    const SRID = 4326;
 
     /**
      *
